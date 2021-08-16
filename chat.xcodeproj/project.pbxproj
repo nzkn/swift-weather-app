@@ -11,6 +11,7 @@
 		7854F81C26C9A68300A20BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854F81B26C9A68300A20BB1 /* ContentView.swift */; };
 		7854F81E26C9A68400A20BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7854F81D26C9A68400A20BB1 /* Assets.xcassets */; };
 		7854F82126C9A68400A20BB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7854F82026C9A68400A20BB1 /* Preview Assets.xcassets */; };
+		78600EA526CB260800F593ED /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78600EA426CB260800F593ED /* DefaultButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7854F81D26C9A68400A20BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7854F82026C9A68400A20BB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7854F82226C9A68400A20BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78600EA426CB260800F593ED /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,12 @@
 		7854F81826C9A68300A20BB1 /* chat */ = {
 			isa = PBXGroup;
 			children = (
-				7854F81926C9A68300A20BB1 /* chatApp.swift */,
 				7854F81B26C9A68300A20BB1 /* ContentView.swift */,
+				7854F81926C9A68300A20BB1 /* chatApp.swift */,
 				7854F81D26C9A68400A20BB1 /* Assets.xcassets */,
 				7854F82226C9A68400A20BB1 /* Info.plist */,
 				7854F81F26C9A68400A20BB1 /* Preview Content */,
+				78600EA426CB260800F593ED /* DefaultButton.swift */,
 			);
 			path = chat;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7854F81C26C9A68300A20BB1 /* ContentView.swift in Sources */,
+				78600EA526CB260800F593ED /* DefaultButton.swift in Sources */,
 				7854F81A26C9A68300A20BB1 /* chatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
